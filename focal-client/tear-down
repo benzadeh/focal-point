@@ -1,0 +1,7 @@
+#!/bin/bash
+pkill redis-server
+pkill dnsmasq-focal
+pkill focal-server
+cd 
+rm -rf /opt/focal-server
+rm -rf $HOME/focal
